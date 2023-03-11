@@ -1,15 +1,46 @@
 .profile {
+  background-color: #fff;
   .inner {
+    .pro-h2 {
+      // background-color: #e6e6e6;
+      // width: 100%;
+    }
     .contents {
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       .profile-box {
         width: calc(50% - 10px);
         img {
+          box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.2);
           width: 95%;
         }
+      }
+    }
+    .pro-za {
+      padding: 40px 0;
+      ul {
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        li {
+          text-align: center;
+          img {
+            width: 70%;
+          }
+          span {
+            width: 100px;
+            text-align: center;
+            display: block;
+          }
+        }
+
+        // span {
+        //   flex-wrap: wrap;
+        // }
+        //
       }
     }
   }

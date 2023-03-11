@@ -10,7 +10,9 @@
 
           .portfolio-left {
             width: calc(60% - 10px);
+            height: 325px;
             text-align: center;
+            overflow: hidden;
             a {
               display: block;
               img {
@@ -33,6 +35,8 @@
             text-align: center;
             img {
               width: 100%;
+              overflow: hidden;
+              // image-rendering: optimizeQuality;
             }
           }
         }

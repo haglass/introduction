@@ -20,18 +20,21 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="https://haglass.github.io/hansalim"
+                  href="https://github.com/haglass/kyobo"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  {/* <video muted autoPlay loop>
+                    <source src="/videos/kyobo.mp4" type="video/mp4" />
+                  </video> */}
+                  <img src={`${path}/images/kyobo.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
+                  <li>프로젝트명 : Just Do it </li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
@@ -41,7 +44,7 @@ const Portfolio = () => {
                   <li>
                     프로젝트 Git :{" "}
                     <a
-                      href="https://github.com/haglass/hansalim"
+                      href="https://github.com/haglass/kageyo"
                       target="_blank"
                       rel="noopener noreferrer"
                       alt="portfolio"
@@ -61,13 +64,13 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/kakeyo.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
+                  <li>프로젝트명 : 나의 텅빈통장</li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
@@ -82,7 +85,7 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="#"
+                  href="https://github.com/haglass/moneybook"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
@@ -108,7 +111,7 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="#"
+                  href="https://github.com/haglass/moneybook"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
@@ -161,12 +164,12 @@ const Portfolio = () => {
             >
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://github.com/haglass/hansalim"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/hansal.png`} alt="project" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -176,7 +179,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/dosi.png`} alt="project" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
