@@ -34,9 +34,9 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : Just Do it </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
+                  <li>프로젝트명 : 교보문고 </li>
+                  <li>프로젝트 기간 :22.12.05~22.12.23 </li>
+                  <li>프로젝트 주제 : 교보문고</li>
                   <li>프로젝트 기여도 : </li>
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
@@ -71,14 +71,21 @@ const Portfolio = () => {
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
                   <li>프로젝트명 : 나의 텅빈통장</li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
+                  <li>프로젝트 기간 :23.02.06 ~ 23.03.02 </li>
+                  <li>
+                    프로젝트 주제 : 목표 소비 금액을 설정할 수 있는 챌린지
+                    형태의 가계부
+                  </li>
+                  <li>
+                    프로젝트 기여도 :메인화면, 로그인, 회원가입, 회원정보{" "}
+                  </li>
+                  <li>프로젝트 도구 : react, notion, figma </li>
                   <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
+                  <li>
+                    프로젝트 피그마
+                    :https://www.figma.com/file/ZXKIBZRTshLbK6PgOmWgIK/Untitled?t=mM3cUQ0B2iECY8Bj-1{" "}
+                  </li>
                   <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
                 </ul>
               </div>
             </div>
@@ -90,7 +97,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/money.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -189,7 +196,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/stx.png`} alt="project" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -199,7 +206,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/h.png`} alt="project" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -209,7 +216,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/bing.png`} alt="project" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -219,7 +226,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/todo.png`} alt="project" />
                 </a>
               </SwiperSlide>
             </Swiper>
