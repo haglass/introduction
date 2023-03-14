@@ -20,17 +20,17 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="https://github.com/haglass/kyobo"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  {/* <video muted autoPlay loop>
-                    <source src="/videos/kyobo.mp4" type="video/mp4" />
-                  </video> */}
-                  <img src={`${path}/images/kyobo.png`} alt="project" />
+                  <video muted autoPlay loop width="90%">
+                    <source src={`${path}/images/vikyo.mp4`} />
+                  </video>
                 </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.) (이미지 클릭시
+                프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -64,7 +64,9 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/kakeyo.png`} alt="project" />
+                  <video muted autoPlay loop width="90%">
+                    <source src={`${path}/images/vika.mp4`} />
+                  </video>
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -97,7 +99,9 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/money.png`} alt="project" />
+                  <video muted autoPlay loop width="90%">
+                    <source src={`${path}/images/vibook.mp4`} />
+                  </video>
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
