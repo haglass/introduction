@@ -4,7 +4,7 @@ const Life = () => {
   return (
     <section className="life scroll">
       <div className="inner">
-        <h2>Life</h2>
+        <h2 data-aos="zoom-out-down">Life</h2>
         <div className="contents">
           <div className="h-box">
             <h3>힐링합니당~</h3>

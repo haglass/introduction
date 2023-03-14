@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Profile = () => {
   const path = process.env.PUBLIC_URL;
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <section className="profile scroll">
       <div className="inner">
         {/* 자기소개(인사팀) : 약력, 학력, 업무, 교육, 성격, MBTI */}
-        <h2
-          className="pro-h2"
-          data-aos="fade-up "
-          data-aos-duration="1000"
-          data-aos-delay="500"
-        >
+        <h2 className="pro-h2" data-aos="zoom-out-down">
           Profile
         </h2>
         <div
@@ -36,6 +36,7 @@ const Profile = () => {
                 src={`${path}/images/pro1-1.png`}
                 alt="profile"
                 className="pro-img"
+                data-aos="flip-left"
               />{" "}
               <span>ITQ(한글,엑셀,파워포인트)</span>
             </li>
@@ -46,6 +47,7 @@ const Profile = () => {
                 src={`${path}/images/pro2.png`}
                 alt="profile"
                 className="pro-img"
+                data-aos="flip-right"
               />
               <span>직업훈련교사3급(디자인)</span>
             </li>
@@ -56,6 +58,7 @@ const Profile = () => {
                 src={`${path}/images/pro3.png`}
                 alt="profile"
                 className="pro-img"
+                data-aos="flip-left"
               />{" "}
               <span>직업훈련교사3급(귀금속)</span>
             </li>
@@ -65,6 +68,7 @@ const Profile = () => {
                 src={`${path}/images/pro3.png`}
                 alt="profile"
                 className="pro-img"
+                data-aos="flip-right"
               />{" "}
               <span>귀금속가공기능사</span>
             </li>
@@ -74,6 +78,7 @@ const Profile = () => {
                 src={`${path}/images/pro3.png`}
                 alt="profile"
                 className="pro-img"
+                data-aos="flip-left"
               />{" "}
               <span>보석감정사</span>
             </li>
