@@ -1,5 +1,4 @@
 import React from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 const Vision = () => {
   return (
@@ -9,24 +8,9 @@ const Vision = () => {
         <h2 data-aos="zoom-out-down">Vision</h2>
         <div className="contetns">
           <ul className="vision-list">
-            <li>
-              1년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
-            </li>
-            <li>
-              3년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
-            </li>
-            <li>
-              5년후 : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Libero eligendi ipsum debitis numquam. Beatae dolores maxime quae
-              delectus aspernatur voluptatibus, dolorem aut, facilis vel
-              accusamus dolor sunt quisquam, minima ipsa!
-            </li>
+            <li>1년후 : 강원도 한달살기</li>
+            <li>3년후 : 스페인 여행</li>
+            <li>5년후 : 세계여행</li>
           </ul>
         </div>
       </div>
